@@ -1,0 +1,103 @@
+/* ? Utilities */
+.w-22 {
+  width: 22%;
+}
+.w-50px {
+  width: 50px;
+}
+
+.w-fit {
+  width: fit-content;
+}
+
+.d-flowroot {
+  display: flow-root;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.h-400px {
+  height: 400px;
+}
+
+.h-70vh {
+  height: 70vh;
+}
+
+/* * aside start */
+aside {
+  z-index: 999;
+  top: 0;
+  left: -260px;
+}
+i,
+ul li {
+  cursor: pointer;
+}
+/* * aside end */
+
+/* * home start */
+
+.home-inner {
+  cursor: pointer;
+}
+.overlay {
+  top: 100%;
+  transition: top 500ms ease;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+.home-inner:hover .overlay {
+  top: 0;
+}
+.home-inner {
+  height: 300px;
+}
+
+.home-inner img {
+  object-fit: cover !important;
+}
+/* * home end */
+
+/* * Instructions start */
+.recipes span {
+  background-color: #cff4fc;
+}
+
+.tags span {
+  background-color: #f8d7da;
+}
+
+.home-inner-search {
+  height: 400px;
+}
+
+.home-inner-search img {
+  object-fit: cover !important;
+}
+/* * Instructions end */
+
+/* * Search start */
+.searchInputs::placeholder {
+  color: rgb(199, 197, 197);
+  font-weight: lighter;
+}
+/* * Search end */
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.error {
+  font-size: 15px;
+  color: red;
+  margin-left: 25px;
+  background-color: #f8d7da;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 10px;
+}
